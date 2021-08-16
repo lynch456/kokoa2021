@@ -16,6 +16,6 @@
 .fa-chevron-right {
   margin-left: 7px;
 }
-.friends-screen {
-  padding: var(--horizontal-space);
+.user-component {
+  padding: 25px 20px;
 }
