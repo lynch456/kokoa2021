@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   padding: 0px var(--horizontal-space);
-  border-bottom: var(--main-border);
   padding-bottom: 25px;
 }
 .find-icons__icon {
@@ -16,8 +15,20 @@
 .find-icons__icon span {
   margin-top: 15px;
 }
-.recommended-friends {
-  padding-bottom: 25px 0px;
+.recommended__friends {
+  margin: 25px 0px;
+  padding: 25px 0px;
   border-top: var(--main-border);
   border-bottom: var(--main-border);
+}
+.recommended-friends__title {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.recommended__friends span {
+  margin: 100px 0px;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.4);
 }
