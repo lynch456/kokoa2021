@@ -28,22 +28,20 @@
 .user-component__avatar--sm {
   width: 60px;
   height: 60px;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 .user-component__title--not-bold {
   font-weight: 400;
 }
-.friends-screen__channel {
-  margin-top: 10px;
-  border-top: 1px solid rgba(0, 0, 0, 0.6);
-  padding-top: 15px;
-}
-.friends-screen__channel-header {
-  margin-bottom: 5px;
-  display: flex;
-  justify-content: space-between;
-  color: gray;
-}
+
 .user-component__column:last-child {
   color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__time {
+  margin-bottom: 5px;
+  display: block;
 }
