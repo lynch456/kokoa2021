@@ -24,6 +24,7 @@
 .recommended-friends__title {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.4);
+  padding: 0 25px;
 }
 .recommended__friends span {
   margin: 100px 0px;
@@ -31,6 +32,9 @@
   text-align: center;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.4);
+}
+.open-chat {
+  padding: 0 25px;
 }
 .open-chat__header {
   display: flex;
