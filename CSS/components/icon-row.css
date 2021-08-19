@@ -3,6 +3,7 @@
     justify-content: space-between;
     padding: 0px var(--horizontal-space);
     padding-bottom: 25px;
+    
   }
 .icon-row__icon {
     display: flex;
@@ -15,11 +16,17 @@
 .icon-row__icon span {
     margin-top: 15px;
   }
+.user-icon{
+  position: relative;
+  left: 115px;
+  
+}
+.fa-comment-alt{
+  font-size: 35px;
+}
 .icon-row__2{
   display: flex;
-  justify-content: space-between;
   padding: 0px var(--horizontal-space);
-  padding-right: 58%;
+  padding-top: 25px;
+  justify-content: space-between;
 }
-
-
