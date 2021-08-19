@@ -24,9 +24,4 @@
 .fa-comment-alt{
   font-size: 35px;
 }
-.icon-row__2{
-  display: flex;
-  padding: 0px var(--horizontal-space);
-  padding-top: 25px;
-  justify-content: space-between;
-}
+
