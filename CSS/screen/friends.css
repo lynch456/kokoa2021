@@ -34,3 +34,14 @@
 .friends-screen__channel-header span {
   padding-left: 25px;
 }
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  height: 100vh;
+  width: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 122px;
+}
