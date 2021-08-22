@@ -33,10 +33,12 @@
     border-radius: 25px;
     margin-bottom: 25px;
   }
-  .message-row{
-      padding-left: 25px;
+.message-row{
+      padding-left: 57px;
+     
       width: 100%;
       display: flex;
+      margin-bottom: 25px;
   }
   .message-row img{
     width: 50px;
@@ -63,4 +65,19 @@
 .message__author{
     opacity: 0.8;
     font-size: 14px;
+}
+.message-row--own{
+    padding-right: 110px;
+    justify-content: flex-end;
+}
+.message-row--own .message__bubble{
+    background-color: var(--yellow);
+    border-top-right-radius: 0px;
+    border-top-left-radius: 15px;
+}
+.message-row--own .message__info{
+    flex-direction: row-reverse;
+}
+.message-row--own .message__time{
+    margin-right: 5px;
 }
