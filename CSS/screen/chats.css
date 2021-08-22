@@ -1,3 +1,34 @@
 #chats-screen{
     background-color: #abc1d1;
+    height: 500vh;
+    
 }
+
+#chats-screen .alt-header,
+#chats-screen .status-bar{
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;  
+    background-color: #abc1d1;
+    z-index: 2;
+     
+}
+
+#chats-screen .alt-header{
+    top: 10px;
+    z-index: 1;
+    
+}
+.main-chat{
+    padding-top: 120px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .chat__timestamp{
+      background-color: #92a4b2;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 25px;
+  }
