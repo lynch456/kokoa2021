@@ -17,6 +17,7 @@
 @import "screen/find.css";
 @import "screen/more.css";
 @import "screen/settings.css";
+@import "screen/chats.css";
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
