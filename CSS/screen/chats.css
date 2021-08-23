@@ -102,7 +102,7 @@
   position: relative;
 }
 .reply input {
-  padding: 8px;
+  padding: 9px;
   width: 100%;
   border: var(--main-border);
   border-radius: 20px;
