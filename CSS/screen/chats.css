@@ -41,12 +41,21 @@
   border-radius: 25px;
   margin-bottom: 25px;
 }
+@keyframes messageView {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+  }
+}
 .message-row {
   padding-left: 57px;
-
   width: 100%;
   display: flex;
   margin-bottom: 25px;
+  animation: messageView 0.8s linear;
 }
 .message-row img {
   width: 50px;
@@ -74,9 +83,21 @@
   opacity: 0.8;
   font-size: 14px;
 }
+
+@keyframes messageView2 {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .message-row--own {
   padding-right: 110px;
   justify-content: flex-end;
+  animation: messageView2 0.8s linear;
 }
 
 .message-row--own .message__bubble {
